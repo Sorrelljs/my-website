@@ -45,3 +45,4 @@ gulp.task("watch", function () {
   gulp.watch("index.html", gulp.series("reload"));
 });
 gulp.task("default", gulp.parallel("browser-sync", "watch"));
+

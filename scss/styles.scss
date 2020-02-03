@@ -342,12 +342,12 @@ body {
 
 .button-4 {
   color: #fff;
-  border-radius: 82%;
-  padding: 25px;
+  border-radius: 18%;
+  padding: 20px;
   font-weight: 700;
   position: relative;
-  border: 2px solid #fff;
-  top: 13px;
+  border: 3px solid #fff;
+  top: 0px;
   text-decoration: none;
 }
 @media only screen and (max-width: 480px) {
@@ -365,13 +365,10 @@ body {
 .languageprof-head {
   font-size: 1.4rem;
   color: #fff;
-  position: relative;
   font-family: helvetica, sans-serif;
-  top: 175px;
-  left: 81px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding-bottom: 20px;
+  white-space: nowrap;
   // COME BACK TO THIS AND STRAIGHTEN OUT THE LINE BREAK
 }
 
@@ -381,13 +378,12 @@ body {
 }
 
 .language-skill {
-  //border: 1px solid #fff;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto auto;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 290px 290px 290px 290px;
   display: grid;
-  width: 100%;
   grid-gap: 20px;
-  margin-bottom: 120px;
+  width: 100%;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 480px) {
@@ -442,7 +438,7 @@ body {
 
 #icons1212 {
   color: white;
-  font-size: 120px;
+  font-size: 99px;
   margin-left: 70px;
   margin-top: 150px;
   // animation: shake 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
@@ -458,4 +454,11 @@ body {
 }
 .fa-gulp:before {
   margin-left: 17px;
+}
+
+.jquery-logo {
+  height: 100px;
+  position: relative;
+  top: 153px;
+  left: 80px;
 }
