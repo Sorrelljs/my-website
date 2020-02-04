@@ -6,9 +6,14 @@ $split-color: white;
 //*****     BACKGROUNDS ******//
 
 .nav-intro-wrap {
-  background: black;
+  background: url("../../IMG/Michael-Angelo.jpg");
   width: 100vw;
   height: 100vh;
+  //   filter: blur(3px);
+  //   -webkit-filter: blur(2px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .portfolio-wrap {
@@ -102,7 +107,6 @@ $split-color: white;
 /**** 1st page body ****/
 
 .container {
-  background-image: url(../IMG/globe.jpg);
 }
 
 .text {
