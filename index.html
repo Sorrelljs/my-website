@@ -24,112 +24,127 @@
 </head>
 
 <body>
-  <nav>
-    <!-- <img class="logo" src="./Logo.png" alt="logo of company" /> -->
+  <section class="nav-intro-wrap">
+    <nav>
+      <!-- <img class="logo" src="./Logo.png" alt="logo of company" /> -->
 
-    <div class="Menu">
-      <ul class="Menu-list" data-offset="10">
-        <li class="Menu-list-item" data-offset="16" onclick>
-          About
-          <a href="about.html" class="Mask"><span>about</span></a>
-          <a href="about.html" class="Mask"><span>about</span></a>
-        </li>
-        <li class="Menu-list-item" data-offset="12" onclick>
-          Work
-          <a href="work.html" class="Mask"><span>work</span></a>
-          <a href="work.html" class="Mask"><span>work</span></a>
-        </li>
-      </ul>
+      <div class="Menu">
+        <ul class="Menu-list" data-offset="10">
+          <li class="Menu-list-item" data-offset="16" onclick>
+            About
+            <a href="about.html" class="Mask"><span>about</span></a>
+            <a href="about.html" class="Mask"><span>about</span></a>
+          </li>
+          <li class="Menu-list-item" data-offset="12" onclick>
+            Work
+            <a href="work.html" class="Mask"><span>work</span></a>
+            <a href="work.html" class="Mask"><span>work</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <p class="text">Hey! I'm Sorrell, I build websites in Vancouver <span class="location">📍</span> with people and
+        organizations that delight and inform. Does that sound like you?
+        <br><br> Let's Talk! <i><a class="email" href="mailto:sjsohota@gmail.com">sjsohota@gmail.com</a></p></i>
+
     </div>
-  </nav>
 
-  <div class="container">
-
-    <p class="text">Hey! I'm Sorrell, I build websites in Vancouver <span class="location">📍</span> with people and
-      organizations that delight and inform. Does that sound like you?
-      <br><br> Let's Talk! <i><a class="email" href="mailto:sjsohota@gmail.com">sjsohota@gmail.com</a></p></i>
-
-  </div>
-
-  <div class="container-wrap">
-    <h1 class="container-header">Portfolio</h1>
-    <section class="container-1212">
-
-      <div class="container-1441">
-        <h1 class="title-5555">Insta News</h1>
-        <p class="para-5555">A website that fetches News from the new york times API, curated
-          in a systematic easily-readable format</p>
-        <div class="language-tags">
+    <div class="work-display-button">
 
 
-          <span id="btn-icon" class="button-3444">HTML5</span>
-          <span id="btn-icon" class="button-3444">JQuery</span>
-          <span id="btn-icon" class="button-3444">Javascript</span>
-          <span id="btn-icon" class="button-3444">Sass</span>
-        </div>
-        <!-- <i class="fab fa-adversal"></i> -->
-        <div class="button-tags-2323">
-          <a href="https://github.com/Sorrelljs/instanews" target="_blank" class="github-ref"></a>
-          <a href="https://github.com/Sorrelljs/instanews" target="_blank" class="button-4">View</a>
-        </div>
+      <div class="work-display-wrap">
+        <p class="work-button-text">View my Work</p>
+        <i class="fas fa-arrow-right"></i>
       </div>
+    </div>
+  </section>
 
-      <div class="container-1441">
-        <h1 class="title-5555">Inhabitent</h1>
-        <p class="para-5555">Here is a custom WP-based theme inspired by active lifestyles and outdoor activitys</p>
-        <div class="language-tags">
 
-          <span id="btn-icon" class="button-3444">Wordpress</span>
-          <span id="btn-icon" class="button-3444">PHP</span>
-          <span id="btn-icon" class="button-3444">Javascript</span>
-          <span id="btn-icon" class="button-3444">Sass</span>
+  <section class="portfolio-wrap">
+    <div class="container-wrap">
+      <h1 class="container-header">Portfolio</h1>
+      <section class="container-1212">
+
+        <div class="container-1441" id="insta-news-background">
+          <h1 class="title-5555">Insta News</h1>
+          <p class="para-5555">A website that fetches News from the new york times API, curated
+            in a systematic easily-readable format</p>
+          <div class="language-tags">
+
+
+            <span id="btn-icon" class="button-3444">HTML5</span>
+            <span id="btn-icon" class="button-3444">JQuery</span>
+            <span id="btn-icon" class="button-3444">Javascript</span>
+            <span id="btn-icon" class="button-3444">Sass</span>
+          </div>
+          <!-- <i class="fab fa-adversal"></i> -->
+          <div class="button-tags-2323">
+            <a href="https://github.com/Sorrelljs/instanews" target="_blank" class="github-ref"></a>
+            <a href="https://github.com/Sorrelljs/instanews" target="_blank" class="button-4">View</a>
+          </div>
         </div>
 
-        <div class="button-tags-2323">
-          <a href="https://github.com/Sorrelljs/wordpress-camping" target="_blank" class="github-ref"></a>
-          <a href="https://github.com/Sorrelljs/wordpress-camping" target="_blank" class="button-4">View</a>
-        </div>
-      </div>
+        <div class="container-1441" id="inhabitent-background">
+          <h1 class="title-5555">Inhabitent</h1>
+          <p class="para-5555">Here is a custom WP-based theme inspired by active lifestyles and outdoor activitys</p>
+          <div class="language-tags">
 
+            <span id="btn-icon" class="button-3444">Wordpress</span>
+            <span id="btn-icon" class="button-3444">PHP</span>
+            <span id="btn-icon" class="button-3444">Javascript</span>
+            <span id="btn-icon" class="button-3444">Sass</span>
+          </div>
 
-      <div class="container-1441">
-        <h1 class="title-5555">Aloha Project</h1>
-        <p class="para-5555">A static web page</p>
-        <div class="language-tags">
-
-          <span id="btn-icon" class="button-3444">HTML5</span>
-          <span id="btn-icon" class="button-3444">CSS3</span>
-          <span id="btn-icon" class="button-3444">Javascript</span>
-          <span id="btn-icon" class="button-3444">Sass</span>
-        </div>
-
-        <div class="button-tags-2323">
-          <a href="https://github.com/Sorrelljs/aloha-web-project" target="_blank" class="github-ref"></a>
-          <a href="https://github.com/Sorrelljs/aloha-web-project" target="_blank" class="button-4">View</a>
-        </div>
-      </div>
-
-
-      <div class="container-1441">
-        <h1 class="title-5555">Pong Game</h1>
-        <p class="para-5555">A classic game! Pong</p>
-        <div class="language-tags">
-
-          <span id="btn-icon" class="button-3444">HTML5</span>
-          <span id="btn-icon" class="button-3444">CSS3</span>
-          <span id="btn-icon" class="button-3444">Javascript</span>
-          <span id="btn-icon" class="button-3444">Sass</span>
+          <div class="button-tags-2323">
+            <a href="https://github.com/Sorrelljs/wordpress-camping" target="_blank" class="github-ref"></a>
+            <a href="https://github.com/Sorrelljs/wordpress-camping" target="_blank" class="button-4">View</a>
+          </div>
         </div>
 
-        <div class="button-tags-2323">
-          <a href="https://github.com/Sorrelljs/pong-game" target="_blank" class="github-ref"></a>
-          <a href="https://github.com/Sorrelljs/pong-game" target="_blank" class="button-4">View</a>
+
+        <div class="container-1441" id="aloha-background">
+          <h1 class="title-5555">Aloha Project</h1>
+          <p class="para-5555">A static web page for an apparel store.</p>
+          <div class="language-tags">
+
+            <span id="btn-icon" class="button-3444">HTML5</span>
+            <span id="btn-icon" class="button-3444">CSS3</span>
+            <span id="btn-icon" class="button-3444">Javascript</span>
+            <span id="btn-icon" class="button-3444">Sass</span>
+          </div>
+
+          <div class="button-tags-2323">
+            <a href="https://github.com/Sorrelljs/aloha-web-project" target="_blank" class="github-ref"></a>
+            <a href="https://github.com/Sorrelljs/aloha-web-project" target="_blank" class="button-4">View</a>
+          </div>
         </div>
-      </div>
-  </div>
+
+
+        <div class="container-1441" id="pong-background">
+          <h1 class="title-5555">Pong Game</h1>
+          <p class="para-5555"> via object orientated programming, A classic game! Pong</p>
+          <div class="language-tags">
+
+            <span id="btn-icon" class="button-3444">HTML5</span>
+            <span id="btn-icon" class="button-3444">CSS3</span>
+            <span id="btn-icon" class="button-3444">Javascript</span>
+            <span id="btn-icon" class="button-3444">Sass</span>
+          </div>
+
+          <div class="button-tags-2323">
+            <a href="https://github.com/Sorrelljs/pong-game" target="_blank" class="github-ref"></a>
+            <a href="https://github.com/Sorrelljs/pong-game" target="_blank" class="button-4">View</a>
+          </div>
+        </div>
+    </div>
   </section>
 
   </div>
+
+  </section>
 
 
 

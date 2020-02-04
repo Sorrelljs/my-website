@@ -3,6 +3,19 @@ $split-position: 49%;
 $split-thickness: 4px;
 $split-color: white;
 
+//*****     BACKGROUNDS ******//
+
+.nav-intro-wrap {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.portfolio-wrap {
+  background: white;
+  width: 100vw;
+  height: 100vh;
+}
 .Menu-list {
   font-size: $font-size;
   line-height: 1.2;
@@ -103,6 +116,38 @@ $split-color: white;
   width: 1100px;
   padding-left: 85px;
   padding-top: 150px;
+}
+
+.work-display-button {
+  border: 1px solid #fff;
+  height: 50px;
+  width: 148px;
+  margin-left: 570px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .work-display-button:hover {
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+.fas {
+  color: white;
+  display: flex;
+}
+
+.work-button-text {
+  color: white;
+  display: flex;
+}
+
+.fas fa-arrow-right {
+  color: white;
 }
 
 @media only screen and (max-width: 480px) {
@@ -209,9 +254,11 @@ $split-color: white;
 /****** skill-set-box *****/
 
 .container-wrap {
+  margin-top: 10px;
+  margin-left: 93px;
   float: left;
   text-align: center;
-  padding: 176px;
+  padding: 80px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -238,9 +285,13 @@ $split-color: white;
   height: 260px;
 }
 
+#aloha-background {
+  background: url("../IMG/projects/home-hero.jpg");
+}
+
 .container-header {
   font-size: 1.4rem;
-  color: #fff;
+  color: black;
   position: relative;
   font-family: helvetica, sans-serif;
   bottom: 39px;
@@ -266,7 +317,8 @@ $split-color: white;
 .para-5555 {
   font-size: 0.875rem;
   padding: 5px 15px;
-  color: #b3b3b3;
+  //   color: #b3b3b3;
+  color: black;
   padding-bottom: 15px;
 }
 
@@ -276,7 +328,8 @@ $split-color: white;
   }
 }
 .title-5555 {
-  color: white;
+  //   color: white;
+  color: black;
   padding: 15px;
   font-weight: 600;
   font-size: 21px;
@@ -285,9 +338,9 @@ $split-color: white;
 //****** lanuage buttons *****//
 
 .language-tags {
-  color: white;
-
-  color: #fff;
+  //   color: white;
+  color: black;
+  //   color: #fff;
   padding: 17px;
   padding-left: 40px;
   font-family: monospace;
@@ -296,8 +349,9 @@ $split-color: white;
 .button-3444 {
   border-radius: 8%;
   padding: 16px;
-  border: 1px solid #fff;
-  color: white;
+  border: 1px solid black;
+  //   color: white;
+  color: black;
 
   &:hover {
     color: red;
@@ -319,12 +373,13 @@ $split-color: white;
 }
 
 .button-4 {
-  color: #fff;
+  //   color: #fff;
+  color: black;
   border-radius: 18%;
   padding: 20px;
   font-weight: 700;
   position: relative;
-  border: 3px solid #fff;
+  border: 3px solid black;
   top: 0px;
   text-decoration: none;
 }
@@ -348,7 +403,7 @@ $split-color: white;
   letter-spacing: 2px;
   white-space: nowrap;
   position: relative;
-  bottom: 645px;
+  bottom: 585px;
   text-align: center;
   // COME BACK TO THIS AND STRAIGHTEN OUT THE LINE BREAK
 }
