@@ -6,7 +6,7 @@ $split-color: white;
 //*****     BACKGROUNDS ******//
 
 .nav-intro-wrap {
-  background: url("../../IMG/Michael-Angelo.jpg");
+  background: url("../../IMG/Michael-Angelo-compressed.jpg");
   width: 100vw;
   height: 100vh;
   //   filter: blur(3px);
@@ -37,11 +37,12 @@ $split-color: white;
   justify-content: flex-end;
   font-family: "helvetica", sans-serif;
   transform: rotateX(5deg) rotateY(17deg);
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 4s; /* Firefox < 16 */
-  -ms-animation: fadein 4s; /* Internet Explorer */
-  -o-animation: fadein 4s; /* Opera < 12.1 */
-  animation: fadein 4s;
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+  -ms-animation: fadein 5s; /* Internet Explorer */
+  -o-animation: fadein 5s; /* Opera < 12.1 */
+  animation: fadein 5s;
+  animation-delay: 0.5s;
 }
 @media only screen and (max-width: 480px) {
   .Menu-list {
@@ -123,11 +124,12 @@ $split-color: white;
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 100px;
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 4s; /* Firefox < 16 */
-  -ms-animation: fadein 4s; /* Internet Explorer */
-  -o-animation: fadein 4s; /* Opera < 12.1 */
-  animation: fadein 4s;
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+  -ms-animation: fadein 5s; /* Internet Explorer */
+  -o-animation: fadein 5s; /* Opera < 12.1 */
+  animation: fadein 5s;
+  animation-delay: 0.5s;
 }
 
 @keyframes fadein {
@@ -136,6 +138,9 @@ $split-color: white;
   }
   to {
     opacity: 0.5;
+  }
+  to {
+    opacity: 0.8;
   }
   to {
     opacity: 1;
@@ -151,6 +156,9 @@ $split-color: white;
     opacity: 0.5;
   }
   to {
+    opacity: 0.8;
+  }
+  to {
     opacity: 1;
   }
 }
@@ -162,6 +170,9 @@ $split-color: white;
   }
   to {
     opacity: 0.5;
+  }
+  to {
+    opacity: 0.8;
   }
   to {
     opacity: 1;
@@ -177,6 +188,9 @@ $split-color: white;
     opacity: 0.5;
   }
   to {
+    opacity: 0.8;
+  }
+  to {
     opacity: 1;
   }
 }
@@ -188,6 +202,9 @@ $split-color: white;
   }
   to {
     opacity: 0.5;
+  }
+  to {
+    opacity: 0.8;
   }
   to {
     opacity: 1;
@@ -209,12 +226,11 @@ $split-color: white;
 }
 
 .work-display-button {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   height: 50px;
   align-self: flex-start;
   margin-top: 150px;
   align-self: center;
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -380,7 +396,7 @@ $split-color: white;
 }
 
 #quotes-background {
-  background: url("../../IMG/projects/home.png");
+  background: url("../../IMG/projects/home123.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -571,6 +587,8 @@ $split-color: white;
   color: white;
   display: flex;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .work-display-wrap {
