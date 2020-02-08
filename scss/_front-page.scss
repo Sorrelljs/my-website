@@ -137,15 +137,15 @@ $split-color: white;
   }
 }
 
+.fas.fa-arrow-right:hover {
+  transition: 0.9s;
+  transform: rotateZ(90deg);
+}
+
 @media only screen and (max-width: 480px) {
 }
 
 .fas {
-  color: white;
-  display: flex;
-}
-
-.work-button-text {
   color: white;
   display: flex;
 }
@@ -224,25 +224,8 @@ $split-color: white;
   bottom: -35px;
   left: 6px;
   position: relative;
-  //-webkit-animation:spin 10s linear infinite;
-  //-moz-animation:spin 20s linear infinite;
-  // animation:spin 10s linear infinite;
-}
 
-@-moz-keyframes spin {
-  100% {
-    -moz-transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-@keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+  &:hover {
   }
 }
 
@@ -268,8 +251,8 @@ $split-color: white;
 
 @media only screen and (max-width: 480px) {
   .container-wrap {
-    padding: 14px;
     padding-top: 200px;
+    margin-left: 0;
   }
 }
 
@@ -281,14 +264,21 @@ $split-color: white;
 
 @media only screen and (max-width: 480px) {
   .container-1212 {
-    grid-template-columns: none;
+    grid-template-columns: auto;
     grid-gap: 90px;
+    text-align: -webkit-center;
   }
 }
 .container-1441 {
   width: 420px;
   height: 250px;
   border-radius: 4%;
+
+  @media only screen and (max-width: 480px) {
+    .container-1441 {
+      width: 250px;
+    }
+  }
 }
 
 #inhabitent-background {
@@ -494,6 +484,9 @@ $split-color: white;
 .work-button-text {
   display: flex;
   padding: 5px;
+  color: white;
+  display: flex;
+  text-decoration: none;
 }
 
 .work-display-wrap {
