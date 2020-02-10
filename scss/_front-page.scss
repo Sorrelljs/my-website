@@ -134,6 +134,12 @@ $split-color: white;
   animation-delay: 0.5s;
 }
 
+@media only screen and (max-width: 480px) {
+  .container {
+    margin-top: 68px;
+  }
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -243,8 +249,8 @@ $split-color: white;
 }
 @media only screen and (max-width: 480px) {
   .work-display-button {
-    height: 40px;
-    margin-top: 70px;
+    height: 35px;
+    margin-top: 45px;
   }
 }
 
