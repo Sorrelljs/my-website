@@ -34,6 +34,11 @@ html {
   display: flex;
   justify-content: center;
 }
+@media only screen and (max-width: 480px) {
+  .portfolio-wrap {
+    padding-bottom: 565px;
+  }
+}
 .Menu-list {
   font-size: $font-size;
   line-height: 1.2;
@@ -431,7 +436,8 @@ html {
 }
 
 .container-header {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  margin-top: 25px;
   color: black;
   font-family: helvetica, sans-serif;
   text-transform: uppercase;
@@ -559,7 +565,7 @@ html {
   .language-skill {
     grid-template-rows: auto;
     grid-template-columns: auto auto;
-    margin-top: 600px;
+    margin-top: 30px;
   }
 }
 
