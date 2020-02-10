@@ -27,6 +27,8 @@ $split-color: white;
   background: white;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 .Menu-list {
   font-size: $font-size;
@@ -239,6 +241,12 @@ $split-color: white;
     color: red;
   }
 }
+@media only screen and (max-width: 480px) {
+  .work-display-button {
+    height: 40px;
+    margin-top: 70px;
+  }
+}
 
 .fas.fa-arrow-right:hover {
   transition: 0.9s;
@@ -260,14 +268,10 @@ $split-color: white;
 @media only screen and (max-width: 480px) {
   .text {
     text-align-last: center;
-    line-height: 31.2px;
-    width: 271px;
-    padding-left: 10px;
-    padding-top: 130px;
+    line-height: 17.2px;
+    font-size: 17px !important;
     font-size: 18px;
-    font-size: 21px;
     text-align: center;
-    margin-left: 30px;
     color: #fff;
   }
 }
@@ -320,6 +324,11 @@ $split-color: white;
 .location {
   font-size: 41px;
 }
+@media only screen and (max-width: 480px) {
+  .location {
+    display: none;
+  }
+}
 
 .email {
   text-decoration: underline;
@@ -351,7 +360,7 @@ $split-color: white;
 
 @media only screen and (max-width: 480px) {
   .container-wrap {
-    padding-top: 200px;
+    padding-top: 15px;
     margin-left: 0;
   }
 }
@@ -364,20 +373,19 @@ $split-color: white;
 
 @media only screen and (max-width: 480px) {
   .container-1212 {
-    grid-template-columns: auto;
-    grid-gap: 90px;
-    text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
   }
 }
 .container-1441 {
   width: 420px;
   height: 250px;
   border-radius: 4%;
-
-  @media only screen and (max-width: 480px) {
-    .container-1441 {
-      width: 250px;
-    }
+}
+@media only screen and (max-width: 480px) {
+  .container-1441 {
+    width: 300px;
+    height: 200px;
   }
 }
 
@@ -422,7 +430,6 @@ $split-color: white;
   .container-header {
     letter-spacing: 2px;
     padding-bottom: 20px;
-    border: 1px red solid;
     width: 36%;
     height: 1%;
     padding: -1px;
@@ -502,8 +509,7 @@ $split-color: white;
 }
 @media only screen and (max-width: 480px) {
   .button-4 {
-    top: 0px;
-    left: 44px;
+    display: none;
   }
 }
 
@@ -541,7 +547,7 @@ $split-color: white;
   .language-skill {
     grid-template-rows: auto;
     grid-template-columns: auto auto;
-    margin-top: 138px;
+    margin-top: 550px;
   }
 }
 
@@ -565,12 +571,11 @@ $split-color: white;
   // animation: shake 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
   //animation: bounce 5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
 }
-
 @media only screen and (max-width: 480px) {
   #icons1212 {
-    font-size: 70px;
-    margin-left: 51px;
-    margin-top: 37px;
+    font-size: 35px;
+    margin-left: 34px;
+    margin-top: 20px;
   }
 }
 .fa-gulp:before {
@@ -613,4 +618,10 @@ $split-color: white;
   top: 0px;
   left: 0px;
   background: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 480px) {
+  .jquery-logo {
+    height: 35px;
+  }
 }
