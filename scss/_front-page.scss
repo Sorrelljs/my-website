@@ -263,14 +263,6 @@ html {
   }
 }
 
-.fas.fa-arrow-right:hover {
-  transition: 0.9s;
-  transform: rotateZ(90deg);
-}
-
-@media only screen and (max-width: 480px) {
-}
-
 .fas {
   color: white;
   display: flex;
@@ -553,7 +545,7 @@ html {
 }
 
 .language-skill {
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 200px 200px 200px;
   grid-template-columns: 290px 290px 290px 290px;
   display: grid;
   grid-gap: 20px;
@@ -569,6 +561,10 @@ html {
   }
 }
 
+.forum_hover {
+  color: red !important;
+}
+
 .language-skill-wrap {
   color: white;
   display: grid;
@@ -576,7 +572,7 @@ html {
   align-content: center;
   grid-column: 1 / 5;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 22.4px;
   font-family: "helvetica", sans-serif;
 }
@@ -631,7 +627,6 @@ html {
   z-index: 1;
   height: 100%;
   width: 100%;
-  position: fixed;
   overflow: auto;
   top: 0px;
   left: 0px;
@@ -642,4 +637,17 @@ html {
   .jquery-logo {
     height: 35px;
   }
+}
+
+// about page
+
+.feature-circles {
+  display: grid;
+}
+
+.circles {
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  background: none;
 }
