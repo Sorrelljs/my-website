@@ -130,6 +130,18 @@ $(document).ready(function () {
         $(".open-source").toggleClass('.zoomOut');
     });
 
+    $(".language-skill-wrap").scroll(function () {
+        $(this).toggleClass("ufo");
+    });
+
+
+    $(".container-1441").mouseenter(function () {
+        $(".container-header").toggleClass('jump');
+    });
+
+    $(".container-1441").mouseleave(function () {
+        $('.container-header').removeClass('jump');
+    });
 });
 
 

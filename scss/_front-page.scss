@@ -1061,3 +1061,20 @@ h2 {
     transform: scaleX(1) skewX(0deg);
   }
 }
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+  40% {
+    transform: translate3d(0, 30%, 0) scale3d(0.7, 1.5, 1);
+  }
+  100% {
+    transform: translate3d(0, 100%, 0) scale3d(1.5, 0.7, 1);
+  }
+}
+.jump {
+  animation: jump 5s;
+  transform-origin: 50% 66%;
+  animation: jump 0.57s linear alternate infinite;
+}
