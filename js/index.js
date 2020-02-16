@@ -1,7 +1,15 @@
+
+
+
+
 $(document).ready(function () {
+
+    const ScrollReveal = $('scrollreveal');
+
     // do jQuery
 
 
+    // ScrollReveal().reveal('.scrolljava');
 
 
     const $quote = $(".test-quotes").hide();
@@ -99,26 +107,31 @@ $(document).ready(function () {
     });
 
 
+    // function animatethis(targetElement, speed) {
+    //     $(targetElement).animate({ marginLeft: "+=750px" },
+    //         {
+    //             duration: speed,
+    //             complete: function () {
+    //                 targetElement.animate({ marginLeft: "-=750px" },
+    //                     {
+    //                         duration: speed,
+    //                         complete: function () {
+    //                             animatethis(targetElement, speed);
+    //                         }
+    //                     });
+    //             }
+    //         });
+    // };
+
+    // animatethis($('.gulplogo'), 5000);
 
 
-
-    function animatethis(targetElement, speed) {
-        $(targetElement).animate({ marginLeft: "+=750px" },
-            {
-                duration: speed,
-                complete: function () {
-                    targetElement.animate({ marginLeft: "-=750px" },
-                        {
-                            duration: speed,
-                            complete: function () {
-                                animatethis(targetElement, speed);
-                            }
-                        });
-                }
-            });
-    };
-
-    animatethis($('.gulplogo'), 5000);
-
+    $(".open-source").scroll(function () {
+        $(".open-source").toggleClass('.zoomOut');
+    });
 
 });
+
+
+
+
