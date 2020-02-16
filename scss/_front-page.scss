@@ -36,7 +36,7 @@ html {
 }
 @media only screen and (max-width: 480px) {
   .portfolio-wrap {
-    padding-bottom: 565px;
+    padding-bottom: 430px;
   }
 }
 .Menu-list {
@@ -620,42 +620,10 @@ html {
   display: flex;
 }
 
-#tr8-background {
-  filter: blur(0.8px);
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
-
-.overlay {
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  top: 0px;
-  left: 0px;
-  background: rgba(0, 0, 0, 0.7);
-}
-
 @media only screen and (max-width: 480px) {
   .jquery-logo {
     height: 35px;
   }
-}
-
-// about page
-
-.feature-circles {
-  display: grid;
-}
-
-.circles {
-  border: 1px solid white;
-  height: 100px;
-  width: 100px;
-  background: none;
 }
 
 .element-animation {
@@ -961,6 +929,18 @@ h2 {
   background-position: -120% 70px, 0px 0px, 0px 0px;
   background-repeat: no-repeat, repeat-x, repeat-x;
   animation: animate-background linear 10s infinite;
+}
+
+@media only screen and (max-width: 480px) {
+  h2 {
+    height: 150px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .language-skill {
+      padding-left: 0px;
+    }
+  }
 }
 @keyframes animate-background {
   from {
