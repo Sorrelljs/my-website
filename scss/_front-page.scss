@@ -251,6 +251,7 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-radius: 8%;
 
   .work-display-button:hover {
     color: red;
@@ -400,58 +401,63 @@ html {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container-1441 {
     width: 335px;
   }
 }
-
-#inhabitent-background {
-  background: url("../../IMG/projects/home-hero.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media only screen and (min-width: 992px) {
+  #inhabitent-background {
+    background: url("../../IMG/projects/home-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   #inhabitent-background {
     background-position: 15%;
   }
 }
 
-#insta-news-background {
-  background: url("../../IMG/projects/instanews-desktop-initial.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media only screen and (min-width: 992px) {
+  #insta-news-background {
+    background: url("../../IMG/projects/instanews-desktop-initial.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   #insta-news-background {
     background-position: 15%;
   }
 }
-
-#quotes-background {
-  background: url("../../IMG/projects/home123.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media only screen and (min-width: 992px) {
+  #quotes-background {
+    background: url("../../IMG/projects/home123.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   #quotes-background {
     background-position: 15%;
   }
 }
-
-#pong-background {
-  background: url("../../IMG/projects/pong-game.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media only screen and (min-width: 992px) {
+  #pong-background {
+    background: url("../../IMG/projects/pong-game.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   #pong-background {
     background-position: 15%;
   }
