@@ -1,4 +1,4 @@
-$font-size: 2.25rem;
+$font-size: 1.7rem;
 $split-position: 49%;
 $split-thickness: 4px;
 $split-color: white;
@@ -400,11 +400,23 @@ html {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .container-1441 {
+    width: 335px;
+  }
+}
+
 #inhabitent-background {
   background: url("../../IMG/projects/home-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  #inhabitent-background {
+    background-position: 15%;
+  }
 }
 
 #insta-news-background {
@@ -414,11 +426,22 @@ html {
   background-size: cover;
 }
 
+@media only screen and (min-width: 768px) {
+  #insta-news-background {
+    background-position: 15%;
+  }
+}
+
 #quotes-background {
   background: url("../../IMG/projects/home123.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media only screen and (min-width: 768px) {
+  #quotes-background {
+    background-position: 15%;
+  }
 }
 
 #pong-background {
@@ -426,6 +449,12 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  #pong-background {
+    background-position: 15%;
+  }
 }
 
 .container-header {
@@ -499,6 +528,12 @@ html {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .button-3444 {
+    padding: 7px;
+  }
+}
+
 //******* SOUURCE BUTTON + VIEW *****/
 
 .button-tags-2323 {
@@ -520,6 +555,13 @@ html {
 @media only screen and (max-width: 480px) {
   .button-4 {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .button-4 {
+    top: -29px;
+    padding: 16px;
   }
 }
 
@@ -562,6 +604,13 @@ html {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .language-skill {
+    grid-template-rows: 190px 184px 171px;
+    grid-template-columns: 200px 200px 200px 290px;
+  }
+}
+
 .forum_hover {
   color: red !important;
 }
@@ -597,6 +646,13 @@ html {
     margin-top: 20px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  #icons1212 {
+    font-size: 50px;
+  }
+}
+
 .fa-gulp:before {
   margin-left: 17px;
 }
@@ -919,7 +975,7 @@ html {
 // ufo animation
 
 h2 {
-  width: 100vw;
+  width: 70vw;
   height: 667px;
   margin: 0px auto;
   background-color: black;
