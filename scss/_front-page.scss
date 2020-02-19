@@ -627,6 +627,8 @@ html {
   display: grid;
   justify-items: center;
   // margin-bottom: 85px;
+  padding: 0;
+  margin: 0;
   align-content: center;
   grid-column: 1 / 5;
   text-transform: uppercase;
@@ -999,7 +1001,13 @@ h2 {
 
   @media only screen and (max-width: 480px) {
     .language-skill {
-      padding-left: 0px;
+      margin: 0;
+      padding: 0;
+      grid-template-columns: 200px 200;
+      width: 100vw;
+      grid-template-columns: 67px 67px 68px;
+      grid-template-rows: auto;
+      padding-bottom: 15px;
     }
   }
 }
