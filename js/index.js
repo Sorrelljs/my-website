@@ -142,6 +142,10 @@ $(document).ready(function () {
     $(".container-1441").mouseleave(function () {
         $('.container-header').removeClass('jump');
     });
+
+    $(".circles").click(function () {
+        $("#tr8-background").css('background', 'black');
+    });
 });
 
 

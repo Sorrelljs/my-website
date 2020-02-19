@@ -40,12 +40,119 @@
 // about page
 
 .feature-circles {
-  display: grid;
+  display: flex;
+  width: 100vw;
+  border: 5px solid #fff;
+  transform: rotate(16deg);
+  justify-content: flex-end;
+  margin-top: 11px;
+  height: 162px;
+  border-radius: 8%;
+  flex-direction: row;
+  background-color: #dcdcdc;
+}
+
+@media only screen and (max-width: 480px) {
+  .feature-circles {
+    height: 110px;
+  }
 }
 
 .circles {
-  border: 1px solid white;
+  border: 1px solid #fff;
+  color: black;
   height: 100px;
   width: 100px;
+  display: flex;
+  margin: 50px;
   background: none;
+  border-radius: 50%;
+  box-shadow: 0 16px 22px -8px #888;
+}
+
+.circles:hover {
+  cursor: pointer;
+  background-color: rgb(92, 92, 92);
+  transform: translateY(4px);
+  opacity: 0.8;
+}
+
+i.fas.fa-mobile {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 34px;
+  flex-direction: row;
+}
+
+i.fas.fa-laptop-code {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 19px;
+  flex-direction: row;
+}
+
+i.fas.fa-glasses {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  flex-direction: row;
+}
+
+i.fas.fa-user-astronaut {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 27px;
+  flex-direction: row;
+}
+
+.box-text {
+  border: 3px solid white;
+  height: auto;
+  width: 500px;
+  padding: 10px;
+  margin: 45px;
+}
+
+.tester666 {
+  background: black;
+}
+
+@media only screen and (max-width: 480px) {
+  i.fas.fa-mobile {
+    font-size: 25px;
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  i.fas.fa-laptop-code {
+    font-size: 25px;
+    padding: 17px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  i.fas.fa-user-astronaut {
+    font-size: 25px;
+    padding: 22px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  i.fas.fa-glasses {
+    font-size: 25px;
+    padding: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .circles {
+    width: 65px;
+    height: 65px;
+    margin: 15px;
+  }
 }
