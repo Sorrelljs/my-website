@@ -146,6 +146,18 @@ $(document).ready(function () {
     $(".circles").click(function () {
         $("#tr8-background").css('background', 'black');
     });
+    // $(".circles").click(function () {
+    //     $("#tr8-background").removeAttr('style');
+    // });
+
+    // function buttonClick() {
+    //     var circles = document.getElementsByClassName("circles");
+    //     if (circles.style.display === "none") {
+    //         circles.style.display = "block";
+    //     } else {
+    //         circles.style.display = "none";
+    //     }
+    // }
 });
 
 
