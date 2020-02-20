@@ -279,8 +279,8 @@ html {
 @media only screen and (max-width: 480px) {
   .text {
     text-align-last: center;
-    line-height: 27px;
-    font-size: 16px !important;
+    line-height: 20px;
+    font-size: 14px !important;
     text-align: center;
     color: #fff;
   }
@@ -624,10 +624,6 @@ html {
   // COME BACK TO THIS AND STRAIGHTEN OUT THE LINE BREAK
 }
 
-@media only screen and (max-width: 480px) {
-  .languageprof-head {
-  }
-}
 .language-skill {
   grid-template-rows: 200px 200px 200px;
   grid-template-columns: 290px 290px 290px 290px;
@@ -639,7 +635,7 @@ html {
 @media only screen and (max-width: 480px) {
   .language-skill {
     grid-template-rows: auto;
-    grid-template-columns: auto auto;
+    grid-template-columns: 65px 75px 65px;
     margin-top: 30px;
   }
 }
