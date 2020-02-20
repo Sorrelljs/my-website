@@ -112,23 +112,7 @@ $(document).ready(function () {
     });
 
 
-    // function animatethis(targetElement, speed) {
-    //     $(targetElement).animate({ marginLeft: "+=750px" },
-    //         {
-    //             duration: speed,
-    //             complete: function () {
-    //                 targetElement.animate({ marginLeft: "-=750px" },
-    //                     {
-    //                         duration: speed,
-    //                         complete: function () {
-    //                             animatethis(targetElement, speed);
-    //                         }
-    //                     });
-    //             }
-    //         });
-    // };
 
-    // animatethis($('.gulplogo'), 5000);
 
 
     $(".open-source").scroll(function () {
@@ -140,29 +124,18 @@ $(document).ready(function () {
     });
 
 
-    // $(".container-1441").mouseenter(function () {
-    //     $(".container-header").toggleClass('jump');
-    // });
-
-    // $(".container-1441").mouseleave(function () {
-    //     $('.container-header').removeClass('jump');
-    // });
-
     $(".circles").click(function () {
         $("#tr8-background").css('background', 'black');
     });
+
+    $(".circles").click(function () {
+        $(this).toggleClass('color-hover');
+    });
+
     // $(".circles").click(function () {
-    //     $("#tr8-background").removeAttr('style');
+    //     $(this).removeClass('color-hover');
     // });
 
-    // function buttonClick() {
-    //     var circles = document.getElementsByClassName("circles");
-    //     if (circles.style.display === "none") {
-    //         circles.style.display = "block";
-    //     } else {
-    //         circles.style.display = "none";
-    //     }
-    // }
 });
 
 
