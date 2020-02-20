@@ -36,7 +36,7 @@ html {
 }
 @media only screen and (max-width: 480px) {
   .portfolio-wrap {
-    padding-bottom: 430px;
+    height: auto;
   }
 }
 .Menu-list {
@@ -363,9 +363,6 @@ html {
   bottom: -35px;
   left: 6px;
   position: relative;
-
-  &:hover {
-  }
 }
 
 .copyright {
