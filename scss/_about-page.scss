@@ -70,6 +70,7 @@
   margin: 50px;
   background: none;
   border-radius: 50%;
+  text-shadow: 2px 1px 30px rgba(16, 12, 11, 0.5);
   box-shadow: 0 24px 43px 1px #000;
 }
 
@@ -83,6 +84,10 @@
 .color-hover {
   background-color: rgb(31, 0, 41);
   transform: translateY(4px);
+}
+
+.color-btn {
+  background-color: none;
 }
 
 i.fas.fa-mobile {

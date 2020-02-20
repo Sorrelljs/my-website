@@ -230,12 +230,11 @@ html {
 
 .text {
   text-align: -webkit-center;
-
   font-family: Helvetica, sans-serif;
   font-weight: 500;
   font-size: 31px;
   background-color: rgba(12, 4, 4, 0.3);
-  color: whitesmoke;
+  color: rgba(201, 199, 199, 0.726);
   display: flex;
   text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2);
   flex-direction: column;
@@ -250,7 +249,6 @@ html {
   border: 2px solid #fff;
   height: 50px;
   align-self: flex-start;
-  margin-top: 150px;
   align-self: center;
   display: flex;
   justify-content: space-evenly;
@@ -359,8 +357,6 @@ html {
   color: $split-color;
   background-color: rgba(12, 4, 4, 0.3);
   text-shadow: none;
-
-  bottom: -35px;
   left: 6px;
   position: relative;
 }

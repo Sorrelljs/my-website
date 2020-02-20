@@ -105,6 +105,7 @@ $(document).ready(function () {
 
     $(".work-display-button").mouseenter(function () {
         $(this).css('border', 'none');
+
     });
 
     $(".work-display-button").mouseleave(function () {
@@ -130,7 +131,18 @@ $(document).ready(function () {
 
     $(".circles").click(function () {
         $(this).toggleClass('color-hover');
+        $("#tr8-background").css('background', 'black');
+
+
     });
+
+    $(".circles").click(function () {
+        $(this).toggleClass('color-btn');
+    });
+    /////////////////////////////////////////////////
+
+
+
 
     // $(".circles").click(function () {
     //     $(this).removeClass('color-hover');
