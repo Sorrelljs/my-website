@@ -81,6 +81,7 @@ $(document).ready(function () {
             $insta.fadeIn(450);
             $(this).css("background", "black")
 
+
         }
     );
 
@@ -89,13 +90,17 @@ $(document).ready(function () {
         $(this).removeAttr('style');
 
     });
+    //background-color, none
 
     $(".work-display-button").mouseenter(function () {
         $($icon).toggleClass('flip');
+        $(this).css('background-color', 'none')
     });
 
     $(".work-display-button").mouseleave(function () {
         $($icon).removeClass('flip');
+        $(this).removeAttr('style')
+
     });
 
     $(".work-display-button").mouseenter(function () {
@@ -135,13 +140,13 @@ $(document).ready(function () {
     });
 
 
-    $(".container-1441").mouseenter(function () {
-        $(".container-header").toggleClass('jump');
-    });
+    // $(".container-1441").mouseenter(function () {
+    //     $(".container-header").toggleClass('jump');
+    // });
 
-    $(".container-1441").mouseleave(function () {
-        $('.container-header').removeClass('jump');
-    });
+    // $(".container-1441").mouseleave(function () {
+    //     $('.container-header').removeClass('jump');
+    // });
 
     $(".circles").click(function () {
         $("#tr8-background").css('background', 'black');

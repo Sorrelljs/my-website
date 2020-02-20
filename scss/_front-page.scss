@@ -145,7 +145,7 @@ html {
 
 @media only screen and (max-width: 480px) {
   .container {
-    margin-top: 68px;
+    margin-top: 25px;
   }
 }
 
@@ -234,12 +234,16 @@ html {
   font-family: Helvetica, sans-serif;
   font-weight: 500;
   font-size: 31px;
-  color: #fff;
+  background-color: rgba(12, 4, 4, 0.3);
+  color: whitesmoke;
   display: flex;
   text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2);
   flex-direction: column;
   align-items: center;
-  line-height: 1;
+  line-height: 1.9;
+  width: 60%;
+  margin: 0 auto;
+  padding: 19px;
 }
 
 .work-display-button {
@@ -252,6 +256,7 @@ html {
   justify-content: space-evenly;
   align-items: center;
   border-radius: 8%;
+  background-color: rgba(12, 4, 4, 0.3);
 
   .work-display-button:hover {
     color: red;
@@ -276,9 +281,8 @@ html {
 @media only screen and (max-width: 480px) {
   .text {
     text-align-last: center;
-    line-height: 34.2px;
-    font-size: 19px !important;
-    font-size: 18px;
+    line-height: 27px;
+    font-size: 16px !important;
     text-align: center;
     color: #fff;
   }
@@ -337,10 +341,25 @@ html {
     display: none;
   }
 }
+@media only screen and (max-width: 480px) {
+  .email {
+    bottom: 1px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .work-display-button {
+    margin-top: -12px;
+    font-size: 10px;
+    margin-top: 28px;
+  }
+}
 
 .email {
   text-decoration: underline;
   color: $split-color;
+  background-color: rgba(12, 4, 4, 0.3);
+  text-shadow: none;
+
   bottom: -35px;
   left: 6px;
   position: relative;
@@ -406,7 +425,7 @@ html {
     width: 335px;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   #inhabitent-background {
     background: url("../../IMG/projects/home-hero.jpg");
     background-position: center;
@@ -415,13 +434,38 @@ html {
   }
 }
 
+#inhabitent-background {
+  background: url("../../IMG/projects/home-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#insta-news-background {
+  background: url("../../IMG/projects/instanews-desktop-initial.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#quotes-background {
+  background: url("../../IMG/projects/home123.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pong-background {
+  background: url("../../IMG/projects/pong-game.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media only screen and (max-width: 768px) {
   #inhabitent-background {
     background-position: 15%;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   #insta-news-background {
     background: url("../../IMG/projects/instanews-desktop-initial.png");
     background-position: center;
@@ -435,7 +479,7 @@ html {
     background-position: 15%;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   #quotes-background {
     background: url("../../IMG/projects/home123.png");
     background-position: center;
@@ -448,7 +492,7 @@ html {
     background-position: 15%;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   #pong-background {
     background: url("../../IMG/projects/pong-game.jpg");
     background-position: center;
@@ -534,7 +578,7 @@ html {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .button-3444 {
     padding: 7px;
   }
@@ -564,7 +608,7 @@ html {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .button-4 {
     top: -29px;
     padding: 16px;
@@ -591,15 +635,12 @@ html {
   .languageprof-head {
   }
 }
-
 .language-skill {
   grid-template-rows: 200px 200px 200px;
   grid-template-columns: 290px 290px 290px 290px;
   display: grid;
-  grid-gap: 20px;
-  width: 100%;
+  height: 100vh;
   justify-content: center;
-  padding-left: 50px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -635,6 +676,34 @@ html {
   letter-spacing: 3px;
   font-size: 22.4px;
   font-family: "helvetica", sans-serif;
+}
+
+.language-skill-wrap1 {
+  justify-self: center;
+}
+
+.language-skill-wrap2 {
+  justify-self: center;
+}
+
+.language-skill-wrap3 {
+  justify-self: center;
+}
+
+.language-skill-wrap4 {
+  justify-self: center;
+}
+.language-skill-wrap5 {
+  justify-self: center;
+}
+.language-skill-wrap6 {
+  justify-self: center;
+}
+.language-skill-wrap7 {
+  justify-self: center;
+}
+.language-skill-wrap8 {
+  justify-self: center;
 }
 
 #icons1212 {

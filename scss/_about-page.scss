@@ -62,7 +62,7 @@
 }
 
 .circles {
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   color: black;
   height: 100px;
   width: 100px;
@@ -70,12 +70,12 @@
   margin: 50px;
   background: none;
   border-radius: 50%;
-  box-shadow: 0 16px 22px -8px black;
+  box-shadow: 0 24px 43px 1px #000;
 }
 
 .circles:hover {
   cursor: pointer;
-  background-color: rgb(92, 92, 92);
+  background-color: rgb(31, 0, 41);
   transform: translateY(4px);
   opacity: 0.8;
 }
@@ -127,35 +127,35 @@ i.fas.fa-user-astronaut {
 @media only screen and (max-width: 480px) {
   i.fas.fa-mobile {
     font-size: 25px;
-    padding: 25px;
+    padding: 17px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   i.fas.fa-laptop-code {
     font-size: 25px;
-    padding: 17px;
+    padding: 10px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   i.fas.fa-user-astronaut {
     font-size: 25px;
-    padding: 22px;
+    padding: 15px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   i.fas.fa-glasses {
     font-size: 25px;
-    padding: 18px;
+    padding: 12px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .circles {
-    width: 65px;
-    height: 65px;
-    margin: 15px;
+    width: 50px;
+    height: 50px;
+    margin: 9px;
   }
 }
