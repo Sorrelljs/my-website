@@ -148,6 +148,35 @@ $(document).ready(function () {
     //     $(this).removeClass('color-hover');
     // });
 
+    const num = 700;
+    const num1 = 1450;
+
+    $(window).bind('scroll', function () {
+
+
+        if ($(window).scrollTop() > num) {
+            $('.menu').addClass('sticky');
+            $('.mask').addClass('sticky-color')
+            $('.menu-list').addClass('side-list')
+
+
+        } else {
+            $('.menu').removeClass('sticky');
+            $('.mask').removeClass('sticky-color')
+            $('.menu-list').removeClass('side-list')
+
+
+        } if ($(window).scrollTop() > num1) {
+            $('.mask').addClass('sticky-color-white')
+
+        } else {
+            $('.mask').removeClass('sticky-color-white')
+
+        }
+    });
+
+
+
 });
 
 
