@@ -142,11 +142,7 @@ $(document).ready(function () {
     /////////////////////////////////////////////////
 
 
-
-
-    // $(".circles").click(function () {
-    //     $(this).removeClass('color-hover');
-    // });
+    ////// STICKY NAV BAR CHANGES
 
     const num = 700;
     const num1 = 1450;

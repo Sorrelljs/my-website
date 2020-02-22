@@ -281,10 +281,11 @@ html {
 @media only screen and (max-width: 480px) {
   .text {
     text-align-last: center;
-    line-height: 20px;
-    font-size: 14px !important;
+    line-height: 29px;
+    font-size: 16px !important;
     text-align: center;
     color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
