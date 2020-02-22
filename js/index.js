@@ -126,12 +126,12 @@ $(document).ready(function () {
 
 
     $(".circles").click(function () {
-        $("#tr8-background").css('background', 'black');
+        $("#About").css('background', 'black');
     });
 
     $(".circles").click(function () {
         $(this).toggleClass('color-hover');
-        $("#tr8-background").css('background', 'black');
+        $("#About").css('background', 'black');
 
 
     });
