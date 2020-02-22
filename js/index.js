@@ -103,6 +103,7 @@ $(document).ready(function () {
 
     });
 
+
     $(".work-display-button").mouseenter(function () {
         $(this).css('border', 'none');
 
@@ -111,8 +112,6 @@ $(document).ready(function () {
     $(".work-display-button").mouseleave(function () {
         $(this).css('border', '3px solid white');
     });
-
-
 
 
 
@@ -125,16 +124,31 @@ $(document).ready(function () {
     });
 
 
-    $(".circles").click(function () {
-        $("#About").css('background', 'black');
-    });
-
-    $(".circles").click(function () {
+    ///////       ID'S using toggleClass ///////
+    $("#glasses").click(function () {
+        // $("#About").toggleClass('dark');
+        $('.box-text').toggleClass('hide');
         $(this).toggleClass('color-hover');
-        $("#About").css('background', 'black');
-
-
     });
+
+    $("#laptop").click(function () {
+        // $("#About").toggleClass('dark');
+        $('.box-text').toggleClass('hide');
+        $(this).toggleClass('color-hover');
+    });
+
+    $("#astronaut").click(function () {
+        // $("#About").toggleClass('dark');
+        $('.box-text').toggleClass('hide');
+        $(this).toggleClass('color-hover');
+    });
+
+    $("#mobile").click(function () {
+        // $("#About").toggleClass('dark');
+        $('.box-text').toggleClass('hide');
+        $(this).toggleClass('color-hover');
+    });
+
 
     $(".circles").click(function () {
         $(this).toggleClass('color-btn');
