@@ -1,8 +1,7 @@
 
 
-
-
 $(document).ready(function () {
+
 
     const ScrollReveal = $('scrollreveal');
 
@@ -126,31 +125,38 @@ $(document).ready(function () {
 
     ///////       ID'S using toggleClass ///////
     $("#glasses").click(function () {
-        // $("#About").toggleClass('dark');
-        $('.box-text').toggleClass('hide');
+        $('#glasses').siblings().prop('disabled', true);
+        $('.box-text-glasses').toggleClass('hide');
         $(this).toggleClass('color-hover');
+        $('#glasses').siblings().prop('disabled', false);
     });
 
     $("#laptop").click(function () {
-        // $("#About").toggleClass('dark');
-        $('.box-text').toggleClass('hide');
+        $('#laptop').siblings().prop('disabled', true);
+        $('.box-text-laptop').toggleClass('hide');
         $(this).toggleClass('color-hover');
+        $('#laptop').siblings().prop('disabled', false);
     });
 
     $("#astronaut").click(function () {
-        // $("#About").toggleClass('dark');
-        $('.box-text').toggleClass('hide');
+        $('#astronaut').siblings().prop('disabled', true);
+        $('.box-text-astronaut').toggleClass('hide');
         $(this).toggleClass('color-hover');
+        $('#astronaut').siblings().prop('disabled', false);
     });
 
     $("#mobile").click(function () {
-        // $("#About").toggleClass('dark');
+
+        $('#mobile').siblings().prop('disabled', true);
         $('.box-text').toggleClass('hide');
         $(this).toggleClass('color-hover');
+        $('#mobile').siblings().prop('disabled', false);
     });
 
 
     $(".circles").click(function () {
+
+        event.preventDefault();
         $(this).toggleClass('color-btn');
     });
     /////////////////////////////////////////////////
@@ -186,9 +192,6 @@ $(document).ready(function () {
     });
 
 
-
 });
-
-
 
 
