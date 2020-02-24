@@ -48,7 +48,8 @@ html {
   display: flex;
   justify-content: flex-end;
   font-family: "helvetica", sans-serif;
-  transform: rotateX(5deg) rotateY(17deg);
+  padding: 5px;
+  // transform: rotateX(5deg) rotateY(17deg);
   -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 5s; /* Firefox < 16 */
   -ms-animation: fadein 5s; /* Internet Explorer */
@@ -521,6 +522,7 @@ html {
     height: 1%;
     padding: -1px;
     border-radius: 8%;
+    font-size: 14px;
   }
 }
 
