@@ -164,6 +164,17 @@ i.fas.fa-user-astronaut {
   box-shadow: 0 24px 43px 1px #000;
 }
 
+h3 {
+  letter-spacing: 2px;
+  border-bottom: 1px white dotted;
+  width: 50%;
+}
+
+.highlighted {
+  color: red;
+  opacity: 0.9;
+}
+
 .hide-sib {
   display: none;
 }
