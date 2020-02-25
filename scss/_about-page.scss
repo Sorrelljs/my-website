@@ -73,13 +73,9 @@
   opacity: 0.8;
 }
 
-.color-hover {
+.active {
   background-color: rgb(31, 0, 41);
   transform: translateY(4px);
-}
-
-.color-btn {
-  background-color: none;
 }
 
 i.fas.fa-mobile {
@@ -157,7 +153,7 @@ i.fas.fa-user-astronaut {
   margin: 45px;
   color: white;
 }
-.hide {
+.show {
   display: block;
   color: white;
   background: rgb(26, 25, 25);
@@ -170,7 +166,7 @@ h3 {
   width: 50%;
 }
 
-.highlighted {
+span.highlighted {
   color: red;
   opacity: 0.9;
 }

@@ -123,43 +123,42 @@ $(document).ready(function () {
     });
 
 
-    ///////       ID'S using toggleClass ///////
+    /////       ID'S using toggleClass ///////
     $("#glasses").click(function () {
         $('#glasses').siblings().prop('disabled', true);
-        $('.box-text-glasses').toggleClass('hide');
-        $(this).toggleClass('color-hover');
+        $('.box-text-glasses').toggleClass('show');
+        // $(this).toggleClass('color-hover');
         $('#glasses').siblings().prop('disabled', false);
     });
 
     $("#laptop").click(function () {
         $('#laptop').siblings().prop('disabled', true);
-        $('.box-text-laptop').toggleClass('hide');
-        $(this).toggleClass('color-hover');
+        $('.box-text-laptop').toggleClass('show');
         $('#laptop').siblings().prop('disabled', false);
     });
 
     $("#astronaut").click(function () {
         $('#astronaut').siblings().prop('disabled', true);
-        $('.box-text-astronaut').toggleClass('hide');
-        $(this).toggleClass('color-hover');
+        $('.box-text-astronaut').toggleClass('show');
         $('#astronaut').siblings().prop('disabled', false);
     });
 
     $("#mobile").click(function () {
 
         $('#mobile').siblings().prop('disabled', true);
-        $('.box-text').toggleClass('hide');
-        $(this).toggleClass('color-hover');
+        $('.box-text').toggleClass('show');
         $('#mobile').siblings().prop('disabled', false);
     });
 
 
-    $(".circles").click(function () {
+    // $('.circles').click(function () {
+    //     $('.circles').not(this).removeClass('active').html(function () {
+    //         //   return $(this).html().replace('SELECTED', 'SELECT');
+    //     });
+    //     $(this).addClass('active').html(jQuery(this).html().replace('SELECT', 'SELECTED'));
+    // });
 
-        event.preventDefault();
-        $(this).toggleClass('color-btn');
-    });
-    /////////////////////////////////////////////////
+
 
 
     ////// STICKY NAV BAR CHANGES
