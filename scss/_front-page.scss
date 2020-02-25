@@ -265,6 +265,7 @@ html {
 }
 @media only screen and (max-width: 480px) {
   .work-display-button {
+    display: none;
     height: 35px;
     margin-top: 60px;
   }
