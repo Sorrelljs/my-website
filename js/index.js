@@ -124,31 +124,25 @@ $(document).ready(function () {
 
 
     /////       ID'S using toggleClass ///////
-    $("#glasses").click(function () {
-        $('#glasses').siblings().prop('disabled', true);
-        $('.box-text-glasses').toggleClass('show');
-        // $(this).toggleClass('color-hover');
-        $('#glasses').siblings().prop('disabled', false);
-    });
+    // $("#glasses").click(function () {
 
-    $("#laptop").click(function () {
-        $('#laptop').siblings().prop('disabled', true);
-        $('.box-text-laptop').toggleClass('show');
-        $('#laptop').siblings().prop('disabled', false);
-    });
+    //     $('.box-text').toggleClass('show');
 
-    $("#astronaut").click(function () {
-        $('#astronaut').siblings().prop('disabled', true);
-        $('.box-text-astronaut').toggleClass('show');
-        $('#astronaut').siblings().prop('disabled', false);
-    });
+    // });
 
-    $("#mobile").click(function () {
+    // $("#laptop").click(function () {
+    //     $('.box-text').toggleClass('show');
 
-        $('#mobile').siblings().prop('disabled', true);
-        $('.box-text').toggleClass('show');
-        $('#mobile').siblings().prop('disabled', false);
-    });
+    // });
+
+    // $("#astronaut").click(function () {
+    //     $('.box-text').toggleClass('show');
+    // });
+
+    // $("#mobile").click(function () {
+    //     $('.box-text').toggleClass('show');
+    // });
+
 
 
     // $('.circles').click(function () {
@@ -190,6 +184,56 @@ $(document).ready(function () {
         }
     });
 
+    $('#mobile').click(function () {
+
+        if ($('.box-text').hasClass('show')) {
+
+            $('.box-text').removeClass('show')
+            $('#phone-box').addClass('show')
+
+        }
+        else {
+            $('#phone-box').addClass('show')
+        }
+    })
+    $('#laptop').click(function () {
+
+        if ($('.box-text').hasClass('show')) {
+
+            $('.box-text').removeClass('show')
+            $('#laptop-box').addClass('show')
+
+        }
+        else {
+            $('#laptop-box').addClass('show')
+        }
+    })
+
+    $('#astronaut').click(function () {
+
+        if ($('.box-text').hasClass('show')) {
+
+            $('.box-text').removeClass('show')
+            $('#astro-box').addClass('show')
+
+        }
+        else {
+            $('#astro-box').addClass('show')
+        }
+    })
+
+    $('#glasses').click(function () {
+
+        if ($('.box-text').hasClass('show')) {
+
+            $('.box-text').removeClass('show')
+            $('#glasses-box').addClass('show')
+
+        }
+        else {
+            $('#glasses-box').addClass('show')
+        }
+    })
 
 });
 
