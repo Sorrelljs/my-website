@@ -184,6 +184,8 @@ $(document).ready(function () {
         }
     });
 
+    ///// THIS IS THE BUTTON CLICK FUNCITONALITY ///
+
     $('#mobile').click(function () {
 
         if ($('.box-text').hasClass('show')) {

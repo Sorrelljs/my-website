@@ -124,6 +124,21 @@ i.fas.fa-user-astronaut {
   color: white;
 }
 
+@media only screen and (max-width: 480px) {
+  .box-text {
+    display: none;
+    border: 3px solid #fff;
+    width: auto;
+    padding: 10px;
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .show {
+    font-size: 10.4px;
+  }
+}
+
 .show {
   display: block;
   color: white;
