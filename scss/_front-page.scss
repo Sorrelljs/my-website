@@ -663,14 +663,23 @@ html {
 
 @media only screen and (max-width: 480px) {
   .language-skill {
+    // margin: 0;
+    // padding: 0;
+    // grid-template-columns: 200px 200;
+    // width: 100vw;
+    // height: auto;
+    // grid-template-columns: 66px 67px 68px;
+    // grid-template-rows: 164px 200px;
+    // padding-bottom: 40px;
+
     margin: 0;
     padding: 0;
     grid-template-columns: 200px 200;
     width: 100vw;
-    height: auto;
-    grid-template-columns: 66px 67px 68px;
-    grid-template-rows: 164px 200px;
-    padding-bottom: 40px;
+    height: 100vh;
+    grid-gap: 20px;
+    grid-template-columns: 67px 67px 67px;
+    grid-template-rows: auto;
   }
 }
 
