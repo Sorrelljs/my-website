@@ -19,8 +19,35 @@ $(document).ready(function () {
     const $icon = $("#icon2020");
 
 
+///        CONSTRUCTION FOOTER BOX
+//    $(".website-construction-box").hide();
+
+//    $(".website-construction-box").delay(3000);
+$(".website-construction-box").hide();
+setTimeout(function(){
+	$(".website-construction-box").show();
+},3500);
+
+$(".construction-button").click(function(){
+     $('.website-construction-box').css('display', 'none')
+
+});
+
+
+
+
+    $('#close-button').click(function(){
+        $('.website-construction-box').css('display', 'none')
+
+    });
     // BACKGROUND TAGS
 
+
+
+
+
+
+        // $(window).load(function(){
 
 
     $(".quote-tag").mouseenter(
@@ -129,6 +156,8 @@ $(document).ready(function () {
     //     $('.box-text').toggleClass('show');
 
     // });
+
+    
 
     // $("#laptop").click(function () {
     //     $('.box-text').toggleClass('show');
