@@ -19,27 +19,26 @@ $(document).ready(function () {
     const $icon = $("#icon2020");
 
 
-///        CONSTRUCTION FOOTER BOX
-//    $(".website-construction-box").hide();
+    ///        CONSTRUCTION FOOTER BOX
+    //    $(".website-construction-box").hide();
 
-//    $(".website-construction-box").delay(3000);
-$(".website-construction-box").hide();
-setTimeout(function(){
-	$(".website-construction-box").show();
-},3500);
+    //    $(".website-construction-box").delay(3000);
+    $(".website-construction-box").hide();
 
-$(".construction-button").click(function(){
-     $('.website-construction-box').css('display', 'none')
+    setTimeout(function () {
+        $(".website-construction-box").show();
+    }, 3500);
 
-});
+    // $('.construction-button').button(function () {
+    //     ('.construction-button').addClass('spinspin');
+    // });
 
-
-
-
-    $('#close-button').click(function(){
-        $('.website-construction-box').css('display', 'none')
+    $(".construction-button").click(function () {
+        $('.website-construction-box').fadeOut(800)
 
     });
+
+
     // BACKGROUND TAGS
 
 
@@ -47,7 +46,7 @@ $(".construction-button").click(function(){
 
 
 
-        // $(window).load(function(){
+    // $(window).load(function(){
 
 
     $(".quote-tag").mouseenter(
@@ -157,7 +156,7 @@ $(".construction-button").click(function(){
 
     // });
 
-    
+
 
     // $("#laptop").click(function () {
     //     $('.box-text').toggleClass('show');
@@ -213,7 +212,7 @@ $(".construction-button").click(function(){
         }
     });
 
-    
+
 
     ///// THIS IS THE BUTTON CLICK FUNCITONALITY ///
 
