@@ -8,15 +8,27 @@ $(document).ready(function () {
     // do jQuery
 
 
-    // ScrollReveal().reveal('.scrolljava');
-
-
     const $quote = $(".test-quotes").hide();
     const $insta = $(".test-instanews").hide();
     const $inhabitent = $(".test-inhabitent").hide();
     const $pong = $(".test-pong").hide();
 
     const $icon = $("#icon2020");
+
+    $(function () {
+        // Get page title
+        let pageTitle = $("title").text();
+
+        // Change page title on blur
+        $(window).blur(function () {
+            $("title").text("I miss you...");
+        });
+
+        // Change page title back on focus
+        $(window).focus(function () {
+            $("title").text(pageTitle);
+        });
+    });
 
 
     ///        CONSTRUCTION FOOTER BOX
