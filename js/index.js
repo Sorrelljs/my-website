@@ -35,7 +35,6 @@ $(document).ready(function () {
     //    $(".website-construction-box").hide();
 
     //    $(".website-construction-box").delay(3000);
-    $(".website-construction-box").hide();
 
     setTimeout(function () {
         $(".website-construction-box").show();
