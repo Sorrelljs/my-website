@@ -12,12 +12,14 @@ $(document).ready(function () {
     const $insta = $(".test-instanews").hide();
     const $inhabitent = $(".test-inhabitent").hide();
     const $pong = $(".test-pong").hide();
-
     const $icon = $("#icon2020");
 
     $(function () {
         // Get page title
         let pageTitle = $("title").text();
+
+        $(".website-construction-box").hide();
+
 
         // Change page title on blur
         $(window).blur(function () {
@@ -31,10 +33,6 @@ $(document).ready(function () {
     });
 
 
-    ///        CONSTRUCTION FOOTER BOX
-    //    $(".website-construction-box").hide();
-
-    //    $(".website-construction-box").delay(3000);
 
     setTimeout(function () {
         $(".website-construction-box").show();

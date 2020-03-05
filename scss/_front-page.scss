@@ -1297,7 +1297,6 @@ h2 {
 }
 
 .website-construction-box {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -1314,6 +1313,10 @@ h2 {
     width: 100vw;
   }
 }
+
+// .hidden {
+//   display: none;
+// }
 
 p.reminder-text {
   font-family: monospace;
