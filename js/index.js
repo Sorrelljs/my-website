@@ -230,7 +230,7 @@ $(document).ready(function () {
         if ($('.box-text').hasClass('show')) {
 
             $('.box-text').removeClass('show')
-            $('#phone-box').addClass('show')
+            $('#phone-box').addClass('show');
 
         }
         else {

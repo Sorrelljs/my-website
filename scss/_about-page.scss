@@ -116,12 +116,13 @@ i.fas.fa-user-astronaut {
 }
 .box-text {
   display: none;
-  border: 3px solid white;
+  border: 3px solid #fff;
   height: auto;
-  width: 500px;
+  width: 505px;
   padding: 10px;
-  margin: 45px;
-  color: white;
+  margin: 40px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -131,6 +132,7 @@ i.fas.fa-user-astronaut {
     width: auto;
     padding: 10px;
     color: #fff;
+    margin: 60px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -142,8 +144,9 @@ i.fas.fa-user-astronaut {
 .show {
   display: block;
   color: white;
-  background: rgb(26, 25, 25);
+  background: rgba(1, 4, 2, 0.74);
   box-shadow: 0 24px 43px 1px #000;
+  border-radius: 4%;
 }
 
 h3 {
