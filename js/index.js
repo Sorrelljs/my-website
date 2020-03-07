@@ -14,6 +14,7 @@ $(document).ready(function () {
     const $pong = $(".test-pong").hide();
     const $icon = $("#icon2020");
 
+
     $(function () {
         // Get page title
         let pageTitle = $("title").text();
@@ -30,6 +31,16 @@ $(document).ready(function () {
         $(window).focus(function () {
             $("title").text(pageTitle);
         });
+    });
+
+    //Nice scrolling 
+    $(document).ready(function () {
+
+        $("html").niceScroll();
+    }
+    );
+    $(function () {
+        $("body").niceScroll();
     });
 
 
