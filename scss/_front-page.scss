@@ -636,6 +636,12 @@ html {
   }
 }
 
+@media only screen and (max-width: 1100px) {
+  .text {
+    font-size: 19px;
+  }
+}
+
 .button-4:hover {
   color: greenyellow;
   opacity: 0.8;
@@ -663,15 +669,13 @@ html {
 
 @media only screen and (max-width: 480px) {
   .language-skill {
-    grid-template-rows: 100px 100px;
     margin: 0;
     padding: 0;
-    grid-template-columns: 200px 200;
+    grid-template-columns: 200px 200px;
     width: 100vw;
-    height: 100vh;
-    grid-gap: 20px;
-    grid-template-columns: 67px 67px 67px;
-    grid-template-rows: auto;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: 100px 100px;
+    padding-bottom: 15px;
   }
 }
 
@@ -1246,6 +1250,7 @@ h2 {
 .sticky {
   position: fixed;
   top: 0;
+  z-index: 1;
   width: 100%;
   // color: black;
   height: 50px;

@@ -33,15 +33,7 @@ $(document).ready(function () {
         });
     });
 
-    //Nice scrolling 
-    $(document).ready(function () {
 
-        $("html").niceScroll();
-    }
-    );
-    $(function () {
-        $("body").niceScroll();
-    });
 
 
 
@@ -288,5 +280,3 @@ $(document).ready(function () {
     })
 
 });
-
-
