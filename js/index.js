@@ -156,36 +156,6 @@ $(document).ready(function () {
     });
 
 
-    /////       ID'S using toggleClass ///////
-    // $("#glasses").click(function () {
-
-    //     $('.box-text').toggleClass('show');
-
-    // });
-
-
-
-    // $("#laptop").click(function () {
-    //     $('.box-text').toggleClass('show');
-
-    // });
-
-    // $("#astronaut").click(function () {
-    //     $('.box-text').toggleClass('show');
-    // });
-
-    // $("#mobile").click(function () {
-    //     $('.box-text').toggleClass('show');
-    // });
-
-
-
-    // $('.circles').click(function () {
-    //     $('.circles').not(this).removeClass('active').html(function () {
-    //         //   return $(this).html().replace('SELECTED', 'SELECT');
-    //     });
-    //     $(this).addClass('active').html(jQuery(this).html().replace('SELECT', 'SELECTED'));
-    // });
 
 
 
@@ -274,6 +244,7 @@ $(document).ready(function () {
             $('#glasses-box').addClass('show')
         }
     })
+
 
 });
 

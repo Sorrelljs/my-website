@@ -26,6 +26,7 @@ html {
   width: 100vw;
   height: 100vh;
   padding-top: 50px;
+  padding-bottom:50px;
   display: flex;
   justify-content: center;
   background-attachment: fixed;
@@ -578,16 +579,18 @@ html {
 //****** lanuage buttons *****//
 
 .language-tags {
-  //   color: white;
-  color: black;
-  //   color: #fff;
+  color: #000;
   padding: 17px;
+  border: 1px solid white;
   font-family: monospace;
+  border-radius: 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .button-3444 {
   border-radius: 50%;
-  padding: 16px;
+  padding: 10px;
   color: white;
 
 }
