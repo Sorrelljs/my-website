@@ -33,13 +33,13 @@
 
 .feature-circles {
   display: flex;
-  width: 100vw;
+  // width: 100vw;
   // border: 5px solid #fff;
   transform: rotate(16deg);
   justify-content: flex-end;
   margin-top: 11px;
   height: 162px;
-  border-radius: 8%;
+  border-radius: 6rem;
   flex-direction: row;
   background-color: #dcdcdc;
   background-blend-mode: lighten;
@@ -71,11 +71,6 @@
   background-color: rgb(31, 0, 41);
   // transform: translateY(4px);
   opacity: 0.8;
-}
-
-.active {
-  background-color: rgb(31, 0, 41);
-  transform: translateY(4px);
 }
 
 i.fas.fa-mobile {
@@ -125,6 +120,8 @@ i.fas.fa-user-astronaut {
   word-spacing: 1px;
 }
 
+
+
 @media only screen and (max-width: 480px) {
   .box-text {
     display: none;
@@ -147,6 +144,11 @@ i.fas.fa-user-astronaut {
   background: rgba(1, 4, 2, 0.74);
   box-shadow: 0 24px 43px 1px #000;
   border-radius: 4%;
+}
+
+.active {
+  background-color: rgb(31, 0, 41);
+  transform: translateY(4px);
 }
 
 h3 {

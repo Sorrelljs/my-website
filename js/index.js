@@ -19,7 +19,6 @@ $(document).ready(function () {
         // Get page title
         let pageTitle = $("title").text();
 
-        $(".website-construction-box").hide();
 
 
         // Change page title on blur
@@ -35,20 +34,16 @@ $(document).ready(function () {
 
 
 
+//// POP UP CONSTRUCTION BOX 
 
+    // setTimeout(function () {
+    //     $(".website-construction-box").show();
+    // }, 3500);
 
-    setTimeout(function () {
-        $(".website-construction-box").show();
-    }, 3500);
+    // $(".construction-button").click(function () {
+    //     $('.website-construction-box').fadeOut(800)
 
-    // $('.construction-button').button(function () {
-    //     ('.construction-button').addClass('spinspin');
     // });
-
-    $(".construction-button").click(function () {
-        $('.website-construction-box').fadeOut(800)
-
-    });
 
 
     // BACKGROUND TAGS
@@ -228,10 +223,11 @@ $(document).ready(function () {
 
     ///// THIS IS THE BUTTON CLICK FUNCITONALITY ///
 
+
+
     $('#mobile').click(function () {
 
         if ($('.box-text').hasClass('show')) {
-
             $('.box-text').removeClass('show')
             $('#phone-box').addClass('show');
 
@@ -280,3 +276,4 @@ $(document).ready(function () {
     })
 
 });
+
