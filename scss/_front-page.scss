@@ -453,7 +453,7 @@ html {
   background-size: cover;
 }
 #pong-background {
-  background: url("../../IMG/projects/pong-game.jpg");
+  background: url("../../IMG/Karakata.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -564,7 +564,8 @@ html {
 
 @media only screen and (max-width: 480px) {
   .para-5555 {
-    width: 75%;
+    width: 85%;
+    font-size: .575rem;
   }
 }
 .title-5555 {
@@ -585,6 +586,10 @@ html {
   border-radius: 50px;
   width: 80%;
   margin: 0 auto;
+  @media only screen and (max-width: 480px) {
+    width: 85%;
+    padding: 5px;
+  }
 }
 
 .button-3444 {
@@ -608,33 +613,22 @@ html {
 //******* SOUURCE BUTTON + VIEW *****/
 
 .button-tags-2323 {
-  margin: 50px;
-  margin-left: 68px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
 
 .button-4 {
   //   color: #fff;
   color: white;
   border-radius: 18%;
-  padding: 16px;
+  padding: 10px;
   font-weight: 700;
   position: relative;
   border: 3px solid white;
-  top: -15px;
   text-decoration: none;
 }
-@media only screen and (max-width: 480px) {
-  .button-4 {
-    display: none;
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  .button-4 {
-    top: -29px;
-    padding: 16px;
-  }
-}
 
 @media only screen and (max-width: 1100px) {
   .text {
@@ -643,7 +637,8 @@ html {
 }
 
 .button-4:hover {
-  color: greenyellow;
+  background: white;
+  color:black;
   opacity: 0.8;
 }
 
