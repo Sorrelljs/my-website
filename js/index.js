@@ -23,7 +23,7 @@ $(document).ready(function () {
 
         // Change page title on blur
         $(window).blur(function () {
-            $("title").text("I miss you...");
+            $("title").text("I am a tab");
         });
 
         // Change page title back on focus
