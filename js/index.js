@@ -14,7 +14,6 @@ $(document).ready(function () {
     const $pong = $(".test-pong").hide();
     const $icon = $("#icon2020");
 
-
     $(function () {
         // Get page title
         let pageTitle = $("title").text();
@@ -40,20 +39,21 @@ $(document).ready(function () {
     //     $(".website-construction-box").show();
     // }, 3500);
 
-    // $(".construction-button").click(function () {
-    //     $('.website-construction-box').fadeOut(800)
+    $(".construction-button").click(function () {
+        $('.website-construction-box').fadeOut(800)
 
-    // });
+    });
 
+    $('.construction-button').hover(() => {
+        $('.construction-button').css('background-color', 'white')
+        $('.ok-construction').css('color', 'black')
+    }, () => {
+        $('.construction-button').css('background-color', 'black')
+        $('.ok-construction').css('color', 'white')
 
-    // BACKGROUND TAGS
+        
 
-
-
-
-
-
-    // $(window).load(function(){
+    })
 
 
     $(".quote-tag").mouseenter(
