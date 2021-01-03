@@ -430,6 +430,25 @@
   <script src="https://kit.fontawesome.com/f9ae69a728.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./js/index.js" async defer></script>
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+
+  <script>
+    console.log('%c Stop being Nosy, leave the console and reply ok for a pleasant suprise!', 'font-size: 24px')
+      const pressed = [];
+  const secertCode = 'ok'
+
+  window.addEventListener('keyup', (e) => {
+    pressed.push(e.key)
+    pressed.splice(-secertCode.length - 1, pressed.length - secertCode.length)
+    
+    if(pressed.join('').toLowerCase().includes(secertCode)) {
+      console.log('DING DING!')
+      cornify_add();
+    }
+  })
+    
+
+  </script>
   <script>
     AOS.init({
       offset: 200,
